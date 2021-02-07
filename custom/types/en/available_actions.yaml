@@ -1,0 +1,17 @@
+synonym:
+  entities:
+    food:
+      synonyms:
+      - comidas
+      - comida
+      - comida corrrida
+      - comidas corridas
+      - food
+    nuts:
+      synonyms:
+      - nuts
+    water:
+      synonyms:
+      - tanks
+      - water tanks
+      - water

@@ -1,0 +1,15 @@
+synonym:
+  entities:
+    almonds:
+      synonyms:
+      - almonds
+      - almond flakes
+    coconut:
+      synonyms:
+      - coconut
+      - coco
+      - coconut flakes
+    pecans:
+      synonyms:
+      - pecans
+      - brown nuts

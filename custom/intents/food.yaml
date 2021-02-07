@@ -1,0 +1,4 @@
+parameters:
+- name: number_lunch
+  type:
+    name: actions.type.Number

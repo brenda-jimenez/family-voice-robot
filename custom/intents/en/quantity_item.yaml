@@ -1,0 +1,5 @@
+trainingPhrases:
+- ($quantity '2 ' auto=false)comidas
+- ($quantity '2' auto=true) ($item_type 'tanks' auto=false)
+- ($quantity '2' auto=false) ($item_type 'comida corridas' auto=false)
+- ($quantity '2' auto=true) ($item_type 'water tanks' auto=false)

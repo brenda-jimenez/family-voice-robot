@@ -1,0 +1,8 @@
+trainingPhrases:
+- nuts
+- ($quantity '250' auto=false) ($unit_weight 'grams' auto=true) of ($nuts 'almond
+  flakes' auto=false)
+- order ($quantity '250' auto=false) ($unit_weight 'grams' auto=true) of ($nuts 'almonds'
+  auto=false)
+- add ($quantity '250' auto=false) ($unit_weight 'grams' auto=true) of ($nuts 'almonds'
+  auto=false)

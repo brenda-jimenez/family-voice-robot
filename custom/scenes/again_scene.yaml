@@ -1,0 +1,22 @@
+intentEvents:
+- intent: "yes"
+  transitionToScene: select_action_type
+- handler:
+    staticPrompt:
+      candidates:
+      - promptResponse:
+          firstSimple:
+            variants:
+            - speech: See you.
+  intent: "no"
+  transitionToScene: actions.scene.END_CONVERSATION
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: Would you like to add another action?
+        suggestions:
+        - title: "Yes"
+        - title: "No"

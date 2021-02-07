@@ -1,0 +1,10 @@
+parameters:
+- name: unit_weight
+  type:
+    name: unit_weight
+- name: quantity
+  type:
+    name: actions.type.Number
+- name: nuts
+  type:
+    name: nuts

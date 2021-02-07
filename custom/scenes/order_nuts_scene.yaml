@@ -1,0 +1,33 @@
+intentEvents:
+- handler:
+    staticPrompt:
+      candidates:
+      - promptResponse:
+          firstSimple:
+            variants:
+            - speech: Item added to the nuts shopping list.
+  intent: nuts
+  transitionToScene: again_scene
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: Which nuts you like to add?
+        suggestions:
+        - title: almonds
+        - title: coconut
+slots:
+- name: unit_weight
+  required: true
+  type:
+    name: sys_unit_weight
+- name: quantity
+  required: true
+  type:
+    name: actions.type.Number
+- name: nuts
+  required: true
+  type:
+    name: nuts

@@ -1,0 +1,5 @@
+trainingPhrases:
+- water
+- we would like ($number_water_tanks '2' auto=true) water tanks
+- ($number_water_tanks '2' auto=false) garrafones de agua
+- ($number_water_tanks '2' auto=false) water tanks

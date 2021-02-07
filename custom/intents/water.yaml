@@ -1,0 +1,4 @@
+parameters:
+- name: number_water_tanks
+  type:
+    name: actions.type.Number

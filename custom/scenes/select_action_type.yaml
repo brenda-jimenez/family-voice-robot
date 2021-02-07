@@ -1,0 +1,30 @@
+conditionalEvents:
+- condition: scene.slots.status == "FINAL" &&  session.params.chosenAction == "water"
+  transitionToScene: order_water_scene
+- condition: scene.slots.status == "FINAL" &&  session.params.chosenAction == "food"
+  transitionToScene: order_food_scene
+- condition: scene.slots.status == "FINAL" &&  session.params.chosenAction == "nuts"
+  transitionToScene: order_nuts_scene
+intentEvents:
+- handler:
+    webhookHandler: unavailable_actions
+  intent: other_actions
+slots:
+- commitBehavior:
+    writeSessionParam: chosenAction
+  name: chosen_action
+  promptSettings:
+    initialPrompt:
+      staticPrompt:
+        candidates:
+        - promptResponse:
+            firstSimple:
+              variants:
+              - speech: Which action would you like to take?
+            suggestions:
+            - title: Food
+            - title: Water
+            - title: Nuts
+  required: true
+  type:
+    name: available_actions

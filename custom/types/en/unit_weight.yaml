@@ -1,0 +1,11 @@
+synonym:
+  entities:
+    grms:
+      synonyms:
+      - grms
+      - grams
+    kg:
+      synonyms:
+      - Kilogram
+      - kgm
+      - kg

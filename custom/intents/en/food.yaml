@@ -1,0 +1,5 @@
+trainingPhrases:
+- food
+- order ($number_lunch '2' auto=false) comida corridas
+- order ($number_lunch '2' auto=false) lunch boxes
+- we would like ($number_lunch '2' auto=false) lunch boxes

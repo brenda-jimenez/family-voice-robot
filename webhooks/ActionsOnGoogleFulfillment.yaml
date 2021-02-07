@@ -1,0 +1,4 @@
+handlers:
+- name: unavailable_actions
+inlineCloudFunction:
+  executeFunction: ActionsOnGoogleFulfillment

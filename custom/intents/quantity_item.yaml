@@ -1,0 +1,7 @@
+parameters:
+- name: quantity
+  type:
+    name: actions.type.Number
+- name: item_type
+  type:
+    name: available_actions

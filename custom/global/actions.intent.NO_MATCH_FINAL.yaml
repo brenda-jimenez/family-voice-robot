@@ -1,0 +1,7 @@
+handler:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: Im sorry, It might be better if you try later

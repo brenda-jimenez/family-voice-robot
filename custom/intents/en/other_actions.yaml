@@ -1,0 +1,3 @@
+trainingPhrases:
+- ($chosenUnavailableActions 'groceries' auto=true)
+- I would like to order the ($chosenUnavailableActions 'groceries' auto=true)

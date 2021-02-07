@@ -1,0 +1,8 @@
+localizedSettings:
+  displayName: Purvey Jimenez Bot
+  fullDescription: This is a family Robot to order nuts
+  pronunciation: Purvey Jimenez Bot
+  sampleInvocations:
+  - Talk to Family Robot
+  shortDescription: Family Robot to order nuts
+  voice: female_1

@@ -1,0 +1,6 @@
+synonym:
+  entities:
+    groceries:
+      synonyms:
+      - groceries
+      - supermarket
